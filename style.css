@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.parallax {
+    background-image: url('/img4.jpg');
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .content, .header, .footer {
+        padding: 20px;
+    }
+}
